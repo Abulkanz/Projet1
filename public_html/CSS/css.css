@@ -1,0 +1,196 @@
+
+/* 
+    Created on : 28 nov. 2016, 10:56:44
+    Author     : aVioleau
+*/
+@font-face{
+    font-family: Ricasso;
+    src: url(../polices/Ricasso-Regular.ttf);
+}
+
+#pAccueil{   
+    background: url(../images/TestFond.png) no-repeat center center fixed black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#pMars{
+    background: url(../images/andromède.png) no-repeat center center fixed black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+
+body{
+    margin-top:0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#logo{
+    width: 224px;
+    height: 142px;
+    position: relative;
+    margin-top: 8px;
+    background-image: url(../images/Logo.png), top left;
+    background-size: 25%; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+
+ul li{
+    display: inline-block;   
+}
+
+ul{
+    position: absolute;
+    top: -20px;
+    left: 23%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    word-spacing: 10px;
+    
+}
+
+ul li a{
+    padding: 20px 20px 20px 20px;
+    background: #3d3d3d; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top, #3d3d3d, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, #3d3d3d, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #3d3d3d, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #3d3d3d, black); /* Standard syntax */   
+}
+
+ul li a#bAccueil{
+    padding: 20px 20px 20px 20px;
+    border-radius: 0px 0px 0px 20px;
+    background: #3d3d3d; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top, #3d3d3d, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, #3d3d3d, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #3d3d3d, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #3d3d3d, black); /* Standard syntax */   
+}
+ul li a#bLequipe{
+    padding: 20px 20px 20px 20px;
+    border-radius: 0px 0px 20px 0px;
+    background: #3d3d3d; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top, #3d3d3d, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, #3d3d3d, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #3d3d3d, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #3d3d3d, black); /* Standard syntax */   
+}
+
+ul li a:hover{
+    color: white;
+}
+
+.grad {
+  background: #3d3d3d; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #3d3d3d, #3d3d3d, #3d3d3d, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #3d3d3d, #3d3d3d, #3d3d3d,black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #3d3d3d, #3d3d3d, #3d3d3d, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #3d3d3d, #3d3d3d, #3d3d3d, black); /* Standard syntax */
+}
+
+#gpeBoutons{
+    z-index: 300;
+    position: relative;
+    left: 55%;
+}
+
+#barreGauche{
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 814px;
+}
+
+#tAccueil{
+    z-index: 200;
+    background-color: #3d3d3d;
+    padding: 20px 20px 20px 50px;
+    border-radius: 60px;
+    position: absolute;
+    top: 25%;
+    width: 500px;
+    height: 450px;
+    text-align: justify;   
+}
+
+#logo{
+    position: absolute;
+    z-index:300;
+    margin-top: 14px;
+    height: 150px;
+    width: 240px;   
+}
+
+.bandeau{
+    z-index: 1000;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 8px;
+    background-color: #7a6030;
+}
+
+.bandeau2{
+    z-index: 400;
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    height: 8px;
+    background-color: #7a6030;
+}
+
+.princ{
+    position: relative;
+    margin-top: 0px;
+    z-index: 350;
+    width: 100%;
+    height: 1200px;
+    background: #3d3d3d; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top, black, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, black, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, black, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, black, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d, #3d3d3d); /* Standard syntax */   
+}
+
+.tOr{
+    color: #7a6030;
+    font: 11px Ricasso, sans serif;
+}
+
+.tBlanc{
+    color: white;
+    font: 10px Ricasso, sans serif;
+}
+
+.boite{
+    height: 270px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.iVoyager{
+    float: left;
+    left: 20x;
+}
+
+.tVoyager{
+    display: table-cell;
+    height: 270px;
+    line-heigth: 270px;
+    text-align: center;
+    vertical-align: middle;    
+}
